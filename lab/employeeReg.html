@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Application Form
+        </title>
+    </head>
+    <body bgcolor = "lightyellow">
+        <h1>Employee Registration Form</h1>
+        <form>
+            Name: <input type = "text" name = "g1" placeholder = "Enter your name" autofocus><br><br>
+            Password: <input type = "password" name = "g2" minlength = "6" required><br><br>
+            Email: <input type = "email" name = "g3" required><br><br>
+            Mobile Number: <input type = "tel" name = "g4"><br><br>
+            Age: <input type = "number" name = "g5"><br><br>
+            Date of birth: <input type = "date" name = "g5"><br><br>
+            Preferred Interview Time: <input type = "time" name = "g6"><br><br>
+            Gender: <input type = "radio" name = "g7">Male
+                    <input type = "radio" name = "g7">Female<br><br>
+            Skills: <input type = "checkbox" name = "g9">HTML
+                    <input type = "checkbox" name = "g9">CSS
+                    <input type = "checkbox" name = "g9">JavaScript<br><br>
+            Select Department <select name = "g10" required>
+                <option value = "1"> Select Department</option>
+                <option>CSE</option>
+                <option>CSIT</option>
+                <option>ECE</option>
+            </select><br><br>
+            Upload Resume: <input type = "file" name = "g11" accept = ".jpg,.jpeg,.png"><br><br>
+            Address : <textarea name = "g6" required rows = "4" col = "30"
+                placeholder = "Enter your address">
+            </textarea><br><br>
+            Work Experience: <input type = "range" id = "exp" min = "0" max = "100"><br><br>
+            LinkedIn Profile: <input type = "text" name = "g12" placeholder = "Enter LinkedIn URL" required><br><br>
+
+            <button type = "submit"> Register</button>
+            <button type = "reset"> Clear all</button>
+        </form>
+    </body>
+</html>
